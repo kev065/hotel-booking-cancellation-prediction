@@ -2,6 +2,8 @@
 
 !["Image of hotel resort in the mountains with a swimming pool in the foreground"](images/hotel-pool.jpg)
 
+View presentation slides for this project [here](https://www.canva.com/design/DAGPQOhPXJI/b3H_ipiRv1U9qllcL_hwvg/edit?utm_content=DAGPQOhPXJI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Overview
 
 This project aims to develop a predictive model to forecast hotel booking cancellations using a Kaggle [dataset](https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset) of hotel reservations. The goal is to accurately predict cancellations, helping hotels optimize inventory, staff, and revenue strategies.

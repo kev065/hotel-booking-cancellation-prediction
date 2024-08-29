@@ -25,3 +25,11 @@ I began by creating a Logistic Regression model using scikit-learn's `LogisticRe
 - ROC AUC score of 0.76 - Reflects the model's ability to distinguish between cancellations and non-cancellations.
 
 These metrics provide a baseline to assess model performance and highlight areas for potential improvement.
+
+Baseline Model:
+
+!["Baseline Model Confusion Matrix"](images/baseline_confusion.png)
+
+Decision Tree Model:
+
+!["Baseline Model Confusion Matrix"](images/decision_tree_classifier_confusion_matrix.png)

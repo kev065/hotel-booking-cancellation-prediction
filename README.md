@@ -32,4 +32,9 @@ Baseline Model:
 
 Decision Tree Model:
 
-!["Baseline Model Confusion Matrix"](images/decision_tree_classifier_confusion_matrix.png)
+!["Decision Tree Model Confusion Matrix"](images/decision_tree_classifier_confusion_matrix.png)
+
+## Recommendations
+
+- **Final Model Selection**: I selected the ***Decision Tree Classifier*** with a maximum depth of 7 as the final model for predicting hotel booking cancellations. This model strikes a balance between complexity and performance, achieving a precision score of 86%, significantly higher than the baseline model's 74.74%.
+- **Key Factor - Lead Time**: The primary factor influencing cancellations is lead time, which measures the number of days between booking and arrival. Longer lead times correlate with higher cancellation rates, as plans can change over time. Hotel management should consider monitoring lead times closely and potentially adjusting cancellation policies or offering incentives for early confirmations to reduce cancellations.

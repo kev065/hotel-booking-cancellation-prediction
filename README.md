@@ -15,3 +15,13 @@ The hospitality industry faces significant challenges with booking cancellations
 ## Data Understanding
 
 To build the predictive model, I used the Hotel Reservations [Dataset](https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset) from Kaggle, which includes data on customer bookings. Key features include the number of guests, meal plans, parking requirements, room types, lead time, arrival dates, and market segments. The dataset has 36,275 rows and 19 columns, with the target variable being booking_status (1 for canceled, 0 for not). I applied ***OneHotEncoder*** to categorical features and used ***StandardScaler*** for numerical features to prepare the data for modeling.
+
+## Modeling - Baseline Model
+
+I began by creating a Logistic Regression model using scikit-learn's `LogisticRegression` class. The model was trained on the `X_train_transformed` and `y_train` data. This baseline model estimates the probability of booking cancellations (booking_status) based on input features, providing a foundation for comparison. The model's performance metrics are as follows:
+
+- Accuracy of 80.4% - The percentage of correct predictions.
+- Precision of 74.74% - The percentage of true positive predictions among all positive predictions.
+- ROC AUC score of 0.76 - Reflects the model's ability to distinguish between cancellations and non-cancellations.
+
+These metrics provide a baseline to assess model performance and highlight areas for potential improvement.

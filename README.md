@@ -24,6 +24,8 @@ I began by creating a Logistic Regression model using scikit-learn's `LogisticRe
 
 - Accuracy of 80.4% - The percentage of correct predictions.
 - Precision of 74.74% - The percentage of true positive predictions among all positive predictions.
+- Recall of 63% - The percentage of true positive predictions among all actual positive predictions.
+- F1 score of 68.4% - The harmonic average of precision and recall.
 - ROC AUC score of 0.76 - Reflects the model's ability to distinguish between cancellations and non-cancellations.
 
 These metrics provide a baseline to assess model performance and highlight areas for potential improvement.
@@ -38,13 +40,23 @@ Achieved:
 
 - 85% Accuracy
 - 86% Precision
+- 65% Recall
+- 74.2% F1 score
 - 0.8 AUC
 
 !["Decision Tree Model Confusion Matrix"](images/decision_tree_classifier_confusion_matrix.png)
 
 ## Recommendations
 
-- **Final Model Selection**: I selected the ***Decision Tree Classifier*** with a maximum depth of 7 as the final model for predicting hotel booking cancellations. This model strikes a balance between complexity and performance, achieving a precision score of 86%, significantly higher than the baseline model's 74.74%.
+|         | Logistic  | Decision Tree |Random Forest|
+|---------|-----------|---------------|-------------|
+|Accuracy |   80.4%   |     84.8%     |     90.2%   |
+|Precision|   74.7%   |     86.3%     |     88.6%   |
+|Recall   |   63%     |     65%       |     81.4%   |
+|F1 score |   68.4%   |     74.2%     |     84.8%   |
+|AUC      |   0.76    |     0.8       |     0.88    |
+
+- **Final Model Selection**: I selected the ***Random Forest Classifier*** as the final model. This model offers a good balance between complexity and performance, achieving a precision score of ***89%***, which is a significant improvement over the ***Logistic Regression(74.7%)*** and ***Decision Tree models(86.3%)***.
 - **Key Factor - Lead Time**: The primary factor influencing cancellations is lead time, which measures the number of days between booking and arrival. Longer lead times correlate with higher cancellation rates, as plans can change over time. Hotel management should consider monitoring lead times closely and potentially adjusting cancellation policies or offering incentives for early confirmations to reduce cancellations.
 
 ## For a thorough analysis of this dataset, checkout this [notebook](https://github.com/kev065/hotel-booking-cancellation-prediction/blob/main/index.ipynb)

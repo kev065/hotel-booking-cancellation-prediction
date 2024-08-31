@@ -32,7 +32,13 @@ Baseline Model:
 
 !["Baseline Model Confusion Matrix"](images/baseline_confusion.png)
 
-Decision Tree Model:
+### Decision Tree Model
+
+Achieved:
+
+- 85% Accuracy
+- 86% Precision
+- 0.8 AUC
 
 !["Decision Tree Model Confusion Matrix"](images/decision_tree_classifier_confusion_matrix.png)
 

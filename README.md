@@ -46,6 +46,18 @@ Achieved:
 
 !["Decision Tree Model Confusion Matrix"](images/decision_tree_classifier_confusion_matrix.png)
 
+### Random Forest Model
+
+Achieved:
+
+- 90.2% Accuracy
+- 88.6% Precision
+- 81.4% Recall
+- 84.8% F1 score
+- 0.88 AUC
+
+!["Random Forest Model Confusion Matrix"](images/random_forest_confusion_matrix.png)
+
 ## Recommendations
 
 |         | Logistic  | Decision Tree |Random Forest|
